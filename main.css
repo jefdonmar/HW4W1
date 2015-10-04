@@ -40,9 +40,10 @@ nav ul li a:hover {
 .account-type {
   text-align: center;
   width: 250px;
-  border: 1px #ccc;
+  border: 2px #ccc;
   display: inline-block;
   margin: 20px;
+  border:1px solid black;
 }
 
 .account-type .duration {
@@ -76,6 +77,7 @@ nav ul li a:hover {
   margin: 0;
   padding: 0;
   font-size: .9em;
+
 }
 
 .account-type ul li {
@@ -96,4 +98,42 @@ nav ul li a:hover {
   font-weight: bold;
   padding: 8px;
 }
+
+.row {
+  display: inline-block;
+  position: relative;
+  margin:10px 50px 40px 50px;
+}
+
+.box {
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  margin:0 100px 0 100px;
+}
+
+.normalize {
+  text-align: left;
+  width: 300px;
+  padding: 0;
+  position: relative;
+}
+
+.text-title {
+  font-size: 20px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: gray;
+  padding: 20px;
+}
+
+.bottom {
+  color: white;
+}
+
+
+
 
