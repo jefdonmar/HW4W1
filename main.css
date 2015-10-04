@@ -1,122 +1,99 @@
-li {
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+nav ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.image {  
-   height: 10px;
-   width: 30px;
-   display: inline-block
-   
-}
-
-.words { 
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 50%; 
-   text-align: center;
-}
-
-h2 span {
-   color: white; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px; 
-}
-
-.pricefeatures{
-  max-width: 100%;
-  margin-left: auto; 
-  margin-right: auto;
-  display: inline-block
-}
-
-.Col1of3{
-  border: 1px solid grey;
-  max-width: 100%;
-  margin-left: auto; 
-  margin-right: auto;
+nav ul li {
   display: inline-block;
-  box-sizing: boarder-box;
-
+  line-height: 40px;
+  margin-right: 50px;
 }
 
-.Pcolor{
-  background-color: green;
+nav ul li a {
+  text-decoration: none;
+  color: gray;
 }
 
-.personal{
+nav ul li a:hover {
+  color: black;
+}
+
+.banner{
+  background: url(https://github.com/tiy-atl-js-sept-2015/Assignments/blob/master/Assignment-04*/Normal-Mode/assets/background.jpg?raw=true);
+  margin: 0;
   color: white;
+  font-size: 36px;
   text-align: center;
-
+  padding: 150px 0;
 }
 
-.Col2of3{
-  border: 1px solid grey;max-width: 100%;
-  margin-left: auto; 
-  margin-right: auto;
-  display: inline-block;
-  box-sizing: boarder-box;
+.choose-account {
+  padding: 50px 78px;
 }
 
-.Scolor{
-  background-color: blue;
-}
-
-.smallbiz{
-  color: white;
+.account-type {
   text-align: center;
-  background-color: blue;
-
-}
-
-
-.Col3of3{
-  border: 1px solid grey;
-  max-width: 100%;
-  margin-left: auto; 
-  margin-right: auto;
+  width: 250px;
+  border: 1px #ccc;
   display: inline-block;
-  box-sizing: boarder-box;
+  margin: 20px;
 }
 
-.Ecolor{
-  background-color: black;
-}
-.bigbiz{
-  color: white;
-  text-align: center;
-  background-color: black;
-
+.account-type .duration {
+  color: #ccc;
 }
 
-.1of2{
-  border: 1px solid grey;
-  max-width: 100%;
-  margin-left: auto; 
-  margin-right: auto;
-  display: inline-block;
-  box-sizing: boarder-box;
-}
-
-.2of2 {
-  border: 1px solid grey;
-  max-width: 100%;
-  margin-left: auto; 
-  margin-right: auto;
-  display: inline-block;
-  box-sizing: boarder-box;
-}
-
-
-footer{
-  background-color: black;
-  color: white;  
-  text-align: center;
-
-}
-.bottom{
+.price { 
+  text-transform: uppercase;
+  padding: 25px;
   color: white;
 }
+
+.personal .price {
+  background: green
+}
+
+.small-biz .price {
+  background: #213874
+}
+
+.enterprise .price {
+  background: black;
+}
+
+.price .amount {
+  font-size: 3em;
+}
+
+.account-type ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: .9em;
+}
+
+.account-type ul li {
+  padding: 7px;
+  text-align: center;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+}
+
+.choose {
+  padding: 10px;
+}
+
+.choose button {
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  padding: 8px;
+}
+
