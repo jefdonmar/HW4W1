@@ -1,136 +1,120 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="main.css">
 <head>
-  <title></title>
+  <title>Assignment 4</title>
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-  <header class="main-navigation" id="site-header">
-      <hgroup id="logo">
-      <a aria-label="Home" class="freddie" href="https://media0.giphy.com/media/HzAJJabaKNXWM/200.gif" role="button"><h1><span class="hide">Your Logo</span></h1></a>
+  <div class="container"></div>
 
-    <div class="navigation" role="navigation">
-      <nav class="site-nav">
-        <a class="nav-link" href="https://media1.giphy.com/media/xTiTnwD3Dr7YMkHQfC/200.gif">Home</a>
-        <a class="nav-link" href="https://media1.giphy.com/media/Bfctc27s4EbiU/200.gif">Pricing</a>
-        <a class="nav-link" href="https://media2.giphy.com/media/Lqk2qiDd8wW1W/200.gif">Blog</a>
-        <a class="nav-link" href="https://media3.giphy.com/media/X9g9qQU6ydHXi/200.gif">Contact</a>
-        </nav>
-    </div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="https://media1.giphy.com/media/xTiTnwD3Dr7YMkHQfC/200.gif">Home</a></li>
+        <li><a href="https://media1.giphy.com/media/Bfctc27s4EbiU/200.gif"></a>Pricing</li>
+        <li><a href="https://media3.giphy.com/media/X9g9qQU6ydHXi/200.gif"></a>Contact</li>
+      </ul>
+    </nav>
+
+    <p class="banner">
+      Simple Pricing. <br>
+      Try before you buy.
+    </p>
   </header>
-  <div class= "image">
-    <img src="https://github.com/tiy-atl-js-sept-2015/Assignments/blob/master/Assignment-04/Normal-Mode/assets/background.jpg?raw=true">
-      <h2 class="words"><span> Simple Pricing <br /> Try before you buy.</span></h2>
-  </div>
 
-  <br> </br>
+  <div class="main">
+    <div class="choose-account">
+      
+      <div class="account-type personal">
+          <div class="price">
+            <div class="title">Personal</div>
+            <div class="amount">$5</div>
+            <div class="duration">Per Month</div>
+          </div>
+          <ul>
+            <li>Free setup</li>
+            <li>Custom sub-domain</li>
+            <li>Standard customer support</li>
+            <li>1GB file Storage</li>
+            <li>1 database</li>
+            <li>Unlimited Bandwidth</li>
+          </ul>
+          <div class="choose">
+            <button>Choose</button>
+          </div>
+      </div>
 
-<div class="pricefeatures"> 
-  <div class="Col1of3">
-    <div class="Pcolor">
-    <h2 class="personal">PERSONAL</h2>
-    <h3 class="personal">$5</h3>
-    <h4 class="personal">PER MONTH</h4>
-    </div>
-    <p class="body">
-       <li>
-            <hr>
-          <span class="feature">Free set-up</span>
-            <hr>
-          <span class="feature">Custom sub-domain </span>
-            <hr>
-          <span class="feature">Standard customer support </span>
-            <hr>
-          <span class="feature">1GB file storage </span>
-            <hr>
-          <span class="feature">1 database</span>
-            <hr>
-          <span class="feature">Unlimited bandwidth</span>
-            <hr>
-          <button class="button">Choose</button>
-        </li>
-    </p>
-  </div>
-  <div class="Col2of3">
-    <div class="Scolor">
-    <h2 class="smallbiz">SMALL BUSINESS</h2>
-    <h3 class="smallbiz">$25</h3>
-    <h4 class="smallbiz">PER MONTH</h4>
-    </div>
-    <p class="body">
-      <li>
-            <hr>
-          <span class="feature">Free set-up</span>
-            <hr>
-          <span class="feature">Custom sub-domain </span>
-            <hr>
-          <span class="feature">Standard customer support </span>
-            <hr>
-          <span class="feature">10GB file storage </span>
-            <hr>
-          <span class="feature">5 databases</span>
-            <hr>
-          <span class="feature">Unlimited bandwidth</span>
-            <hr>
-          <button class="button">Choose</button>
-        </li>
-    </p>
-  </div>
-  <div class="Col3of3">
-    <div class="Ecolor">
-    <h2 class="bigbiz">ENTERPRISE</h2>
-    <h3 class="bigbiz">$45</h3>
-    <h4 class="bigbiz">PER MONTH</h4>
-    </div>
-    <p class="body">
-       <li>
-            <hr>
-          <span class="feature">Free set-up</span>
-            <hr>
-          <span class="feature">Custom sub-domain </span>
-            <hr>
-          <span class="feature">Standard customer support </span>
-            <hr>
-          <span class="feature">Unlimited file storage </span>
-            <hr>
-          <span class="feature">25 databases</span>
-            <hr>
-          <span class="feature">Unlimited bandwidth</span>
-            <hr>
-          <button class="button">Choose</button>
-        </li>
-    </p>
-  </div>
-</div>
+       <div class="account-type small-biz">
+          <div class="price">
+            <div class="title">Small Business</div>
+            <div class="amount">$25</div>
+            <div class="duration">Per Month</div>
+          </div>
+          <ul>
+            <li>Free setup</li>
+            <li>Use your own domain</li>
+            <li>Standard customer support</li>
+            <li>10GB file Storage</li>
+            <li>5 database</li>
+            <li>Unlimited Bandwidth</li>
+          </ul>
+          <div class="choose">
+            <button>Choose</button>
+          </div>
+      </div>
 
-<div>
-  <ol class="1of2">
-  <div class="Con1of4">
-    <h2>GET STARTED TODAY</h2>
-    <div class="normalize">
-      Mustache iPhone leggings four loko Carles drinking vinegar. Cronut lomo dreamcatcher fanny pack, aesthetic tousled messenger bag typewriter. Synth pop-up ethical tilde, banh mi listicle +1 pour-over. Meh tilde master cleanse, food truck put a bird on it fingerstache synth squid Pinterest. Whatever pug organic, before they sold out polaroid narwhal small batch beard Austin Banksy raw denim locavore disrupt sriracha. Ennui artisan jean shorts umami Etsy seitan bicycle rights listicle, church-key salvia mixtape vegan. Occupy crucifix retro salvia artisan ugh food truck.
+        <div class="account-type enterprise">
+          <div class="price">
+            <div class="title">Enterprise</div>
+            <div class="amount">$45</div>
+            <div class="duration">Per Month</div>
+          </div>
+          <ul>
+            <li>Free setup</li>
+            <li>Use your own domain</li>
+            <li>Standard customer support</li>
+            <li>Unlimited file Storage</li>
+            <li>25 database</li>
+            <li>Unlimited Bandwidth</li>
+          </ul>
+          <div class="choose">
+            <button>Choose</button>
+          </div>
+      </div>
+    </div> 
+  </div>
+  <br>
+  <div class="web-text">
+    <div class="row">
+      <div class="box" id="one">
+      <h2 class= "text-title">GET STARTED TODAY</h2>
+        <div class="normalize">
+         Mustache iPhone leggings four loko Carles drinking vinegar. Cronut lomo dreamcatcher fanny pack, aesthetic tousled messenger bag typewriter. Synth pop-up ethical tilde, banh mi listicle +1 pour-over. Meh tilde master cleanse, food truck put a bird on it fingerstache synth squid Pinterest. Whatever pug organic, before they sold out polaroid narwhal small batch beard Austin Banksy raw denim locavore disrupt sriracha. Ennui artisan jean shorts umami Etsy seitan bicycle rights listicle, church-key salvia mixtape vegan. Occupy crucifix retro salvia artisan ugh food truck.
+        </div>
+      </div>
+       <div class="box" id="two">
+       <h2 class= "text-title">PAY MONTHLY OR ANNUALLY</h2>
+        <div class="normalize">
+          Mustache iPhone leggings four loko Carles drinking vinegar. Cronut lomo dreamcatcher fanny pack, aesthetic tousled messenger bag typewriter. Synth pop-up ethical tilde, banh mi listicle +1 pour-over. Meh tilde master cleanse, food truck put a bird on it fingerstache synth squid Pinterest. Whatever pug organic, before they sold out polaroid narwhal small batch beard Austin Banksy raw denim locavore disrupt sriracha. Ennui artisan jean shorts umami Etsy seitan bicycle rights listicle, church-key salvia mixtape vegan. Occupy crucifix retro salvia artisan ugh food truck.
+        </div>
+      </div>
     </div>
-    <div class="Con2of4">
-    <h2>PAY MONTHLY OR ANNUALLY</h2>
-    <div class="normalize">
-      Mustache iPhone leggings four loko Carles drinking vinegar. Cronut lomo dreamcatcher fanny pack, aesthetic tousled messenger bag typewriter. Synth pop-up ethical tilde, banh mi listicle +1 pour-over. Meh tilde master cleanse, food truck put a bird on it fingerstache synth squid Pinterest. Whatever pug organic, before they sold out polaroid narwhal small batch beard Austin Banksy raw denim locavore disrupt sriracha. Ennui artisan jean shorts umami Etsy seitan bicycle rights listicle, church-key salvia mixtape vegan. Occupy crucifix retro salvia artisan ugh food truck.
-    </div>
-    </ol>
-    <ol class="2of2">
-    <div class="Con3of4">
-    <h2>24/7 CUSTOMER SUPPORT</h2>
-    <div class="normalize">
-      Mustache iPhone leggings four loko Carles drinking vinegar. Cronut lomo dreamcatcher fanny pack, aesthetic tousled messenger bag typewriter. Synth pop-up ethical tilde, banh mi listicle +1 pour-over. Meh tilde master cleanse, food truck put a bird on it fingerstache synth squid Pinterest. Whatever pug organic, before they sold out polaroid narwhal small batch beard Austin Banksy raw denim locavore disrupt sriracha. Ennui artisan jean shorts umami Etsy seitan bicycle rights listicle, church-key salvia mixtape vegan. Occupy crucifix retro salvia artisan ugh food truck.
-    </div>
-    <div class="Con4of4">
-    <h2>CANCEL YOUR PAYMENT ANYTIME</h2>
-    <div class="normalize">
-      Mustache iPhone leggings four loko Carles drinking vinegar. Cronut lomo dreamcatcher fanny pack, aesthetic tousled messenger bag typewriter. Synth pop-up ethical tilde, banh mi listicle +1 pour-over. Meh tilde master cleanse, food truck put a bird on it fingerstache synth squid Pinterest. Whatever pug organic, before they sold out polaroid narwhal small batch beard Austin Banksy raw denim locavore disrupt sriracha. Ennui artisan jean shorts umami Etsy seitan bicycle rights listicle, church-key salvia mixtape vegan. Occupy crucifix retro salvia artisan ugh food truck.
+      <div class="row">
+      <div class="box" id="three">
+      <h2 class= "text-title">CUSTOMER SUPPORT</h2>
+        <div class="normalize">
+         Mustache iPhone leggings four loko Carles drinking vinegar. Cronut lomo dreamcatcher fanny pack, aesthetic tousled messenger bag typewriter. Synth pop-up ethical tilde, banh mi listicle +1 pour-over. Meh tilde master cleanse, food truck put a bird on it fingerstache synth squid Pinterest. Whatever pug organic, before they sold out polaroid narwhal small batch beard Austin Banksy raw denim locavore disrupt sriracha. Ennui artisan jean shorts umami Etsy seitan bicycle rights listicle, church-key salvia mixtape vegan. Occupy crucifix retro salvia artisan ugh food truck.
+        </div>
+      </div>
+       <div class="box" id="four">
+       <h2 class= "text-title">CANCEL YOUR PAYMENT ANYTIME</h2>
+        <div class="normalize">
+          Mustache iPhone leggings four loko Carles drinking vinegar. Cronut lomo dreamcatcher fanny pack, aesthetic tousled messenger bag typewriter. Synth pop-up ethical tilde, banh mi listicle +1 pour-over. Meh tilde master cleanse, food truck put a bird on it fingerstache synth squid Pinterest. Whatever pug organic, before they sold out polaroid narwhal small batch beard Austin Banksy raw denim locavore disrupt sriracha. Ennui artisan jean shorts umami Etsy seitan bicycle rights listicle, church-key salvia mixtape vegan. Occupy crucifix retro salvia artisan ugh food truck.
+        </div>
+      </div>
     </div>
   </div>
-  </ol>
-</div>  
-
 </body>
 <footer>
   <a class="bottom" href="https://38.media.tumblr.com/7db0d1154857e2c1a3a4991d00413b79/tumblr_nv90l17ECl1tp719lo1_400.gif">Try Now</a> for 14 days. No credit card required. Header image courtesy of <a class="bottom" href="https://33.media.tumblr.com/51a5c1f81dde84fbd8b74fab75fa50e4/tumblr_nv90l17ECl1tp719lo2_400.gif">Unsplash</a> 
