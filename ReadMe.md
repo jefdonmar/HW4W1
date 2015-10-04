@@ -1,5 +1,11 @@
-This code is in an attempt to make a template webpage 
+This code is in an attempt to make a template webpage for Project 1
 
+(October 4 2015)
+After taking some time to reflect I realized that I wasn't thinking about the div within divs and their classes correctly, which ultimately translates to the way that you CSS will be structured. This was a better attempt
+
+
+
+(September 27th 2015)
 Used a bit of information from this Mail Chip price page to help me with my code 
   http://mailchimp.com/pricing/entrepreneur/
 
